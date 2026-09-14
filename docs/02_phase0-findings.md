@@ -297,3 +297,24 @@ which the bulletin lists. Each client uses a fixed identifying User-Agent and co
   — widget responses, 1000 days.
 - `docs/samples/adsbfi_v2_lat_lon_dist20_2026-09-14.json`, `adsblol_v2_point_20nm_2026-09-14.json`,
   `opensky_states_all_bbox_2026-09-14.json`, `adsblol_429_response.html` — one raw response each.
+
+## 13. Decisions (2026-09-14, after review)
+
+1. adsb.fi is the primary live feed (non-commercial use, attribution "Data: adsb.fi" with link
+   in the UI and README); adsb.lol and OpenSky are secondary. airplanes.live: not requested yet.
+2. Cadence as in section 11.
+3. Runway geometry: AIP AD 2.12 valid 22 JUN 2017 (archive copy), with the caveat in section 4;
+   the current LSZH AD 2 pages are not available for now.
+4. The 22:00–06:00 night boundary is cited as Betriebsreglement Anhang 1 Art. 11 and
+   VIL Art. 39 in `rules.ts`, not "Art. 5".
+5. Validation targets kept: arrivals per day × runway × bin exact in ≥ 95 % of cells, daily totals
+   within ±2 %; bulletin departure bins 22–23 and 23–24 per runway exact in ≥ 95 %; every permit
+   flight found within ±60 s on the published runway with the published type.
+6. Arrival counts for validation come from the airport widget; the bulletin parser covers the
+   departure pages (coordinate-based parsing of the daily tables) and the permit list. Bulletin
+   arrival pages are parsed only as a monthly cross-check of the widget.
+7. Storage: parsed positions from all streams are kept indefinitely in daily partitions;
+   gzipped raw responses are kept only for the 21:30–01:30 window.
+8. Comparisons with airport data use the calendar day; dashboards use the operational night
+   (a movement before 06:00 belongs to the previous evening).
+9. The v2 prompt and the bulletin PDFs are committed to the repository.
