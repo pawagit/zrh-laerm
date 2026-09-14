@@ -1,0 +1,59 @@
+Source: AIP SWITZERLAND, section AD 2 LSZH, valid from 22 JUN 2017 (eAIP HTML, skyguide).
+Retrieved 2026-09-14 from the Internet Archive copy of the former public mirror:
+https://web.archive.org/web/20190905024417/http://aip.engadin-airport.ch/eAIP/2017-06-22/html/eAIP/LS-AD-2.LSZH-en-CH.html
+Sections AD 2.12 (runway physical characteristics) and AD 2.13 (declared distances), text extracted from the HTML tables; cells separated by ' | '.
+Current AIP (skybriefing eAIP) is a paid product and was NOT checked; runway 10/28 and 32 extensions are planned but not built as of 2026-09-14 (to be re-verified).
+
+|
+LSZH AD 2.12  RUNWAY PHYSICAL CHARACTERISTICS
+DesignationsRWY NR | TRUE &
+MAGBRG | Dimensionsof RWY (m) | Strength (PCN)and surface of RWY and SWYREFAD 1.1.6.2.3 | THR COORD | THR ELEV and highestTDZ ELEV | Slope ofRWY-SWY |
+1 | 2 | 3 | 4 | 5 | 6 | 7 |
+10* | 096° GEO094° MAG | 2500 x 60 | CONCPCN 86 R/B/W/T | 47 27 32.18N 008 32 14.93EGUND 47.3 m / 155.2 ft | 1391 ft1392 ft | Refer to LSZH AOC 16/34/32, 10/28 |
+28* | 276° GEO274° MAG | 47 27 23.76N 008 34 13.63EGUND 47.2 m / 155.0 ft | 1416 ft1417 ft |
+14 | 137° GEO135° MAG | 3300 x 60 | ASPH**PCN 87 F/A/W/T | 47 28 55.53N 008 32 09.87EGUND 47.3 m / 155.3 ft | 1402 ft1402 ft |
+32 | 317° GEO315° MAG | 47 27 40.65N 008 33 52.06EGUND 47.3 m / 155.0 ft | 1402 ft1402 ft |
+16* | 155° GEO153° MAG | 3700 x 60 | ASPH**PCN 87 F/B/W/T | 47 28 32.57N 008 32 09.37EGUND 47.3 m / 155.2 ft | 1390 ft1390 ft |
+34* | 335° GEO333° MAG | 47 26 57.39N 008 33 14.91EGUND 47.3 m / 155.0 ft | 1388 ft1389 ft |
+* RWY designator will remain unchanged, although MAG VAR at LSZH leads to a MAG BRG which exceeds the ICAO rounding tolerance.** Central strip 23 m wide; remaining side strips CONC PCN 60 R/B/W/T.
+Designations
+RWY
+NR | SWY dimensions (m) | CWY dimensions (m) | Strip dimensions (m) | OFZ | Remarks REF: AD 1.1.6.2.4 |
+1 | 8 | 9 | 10 | 11 | 12 |
+10 | NIL | 60 | 2620 x 150 | NIL | Non-instrument runway
+FCT: 0.85/0.89 grooved
+|
+28 | NIL | 60 | 2620 x 150 | NIL | Non-instrument runway
+FCT: 0.84/0.89 grooved
+Engineered Materials Arresting System (EMAS) with a length of 160 m and a width of 60 m at the end of RWY 28.
+|
+14 | NIL | 60 | 3420 x 300 | NIL | Precision approach runway CAT III b
+FCT: 0.93/0.84 grooved
+Fully frangible LOC (75 m x 3 m) positioned within RESA at 216 m after RWY end.
+|
+32 | NIL | 60 | 3420 x 300 | NIL | Non-instrument runway
+FCT: 0.92/0.92 grooved
+|
+16 | NIL | 60 | 3820 x 300 | NIL | Precision approach runway CAT III b
+FCT: 0.88/0.88 grooved
+|
+34 | NIL | 60 | 3820 x 300 | NIL | Precision approach runway CAT I
+FCT: 0.86/0.86 grooved
+|
+LSZH AD 2.13  DECLARED DISTANCES
+RWY Designator | TORA (m) | TODA (m) | ASDA (m) | LDA (m) | Remarks |
+1 | 2 | 3 | 4 | 5 | 6 |
+10 | 2500 | 2560 | 2500 | 2500 | Full length |
+28 | 2500 | 2560 | 2500 | 2500 | Full length |
+1900 | 1960 | 1900 | Not applicable | Intersection K |
+14 | 3300 | 3360 | 3300 | 3150 | Full length (Access only with backtrack from INT G) |
+2700 | 2760 | 2700 | Not applicable | Intersection G |
+32 | 3300 | 3360 | 3300 | 3300 | Full length |
+2700 | 2760 | 2700 | Not applicable | Intersection H2 |
+16 | 3700 | 3760 | 3700 | 3700 | Full length |
+3000 | 3060 | 3000 | Not applicable | Intersection E3 |
+34 | 3700 | 3760 | 3700 | 3230 | Full length |
+3270 | 3330 | 3270 | Not applicable | Intersection E8 |
+3270 | 3330 | 3270 | Not applicable | Intersection R8 |
+2570 | 2630 | 2570 | Not applicable | Intersection E7 |
+2570 | 2630 | 2570 | Not applicable | Intersection R7 |
