@@ -318,3 +318,7 @@ which the bulletin lists. Each client uses a fixed identifying User-Agent and co
 8. Comparisons with airport data use the calendar day; dashboards use the operational night
    (a movement before 06:00 belongs to the previous evening).
 9. The v2 prompt and the bulletin PDFs are committed to the repository.
+10. Local environment notes for Phase 1: `pnpm` is not installed, corepack 0.34.5 is (use
+    `corepack enable` and a `packageManager` field); Docker 29.5.3 / Compose v5.1.4 run; the
+    local PostgreSQL 18.1 already listens on port 5432, so Docker Compose maps `db` to host
+    port 5433.
